@@ -3,6 +3,23 @@
 .about {
   padding-top: 94px;
   padding-bottom: 94px;
+
+  .about-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: $main-title-color;
+  }
+  .about-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: $main-text-color;
+  }
 }
 
 .about-list {
@@ -32,22 +49,4 @@
   justify-content: center;
   background-color: #f5f4fa;
   border-radius: 4px;
-}
-
-.about .about-title {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-
-  color: $main-title-color;
-}
-
-.about .about-text {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  color: $main-text-color;
 }

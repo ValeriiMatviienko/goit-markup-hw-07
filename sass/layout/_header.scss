@@ -55,13 +55,14 @@
   letter-spacing: 0.02em;
   color: $main-title-color;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
 }
 
-.nav-list-link:hover,
-.nav-list-link:focus,
-.nav-list-link.current,
-.contact-list-link:hover,
-.contact-list-link:focus {
+.nav-list-link.current {
   color: $accent-color;
 }
 
@@ -72,6 +73,11 @@
   color: $main-text-color;
   padding-top: 32px;
   padding-bottom: 32px;
+
+  &:hover .head-ic,
+  &:focus .head-ic {
+    fill: $accent-color;
+  }
 }
 
 .envelope-ic {
@@ -86,9 +92,4 @@
   height: 15px;
   margin-right: 10px;
   fill: $main-text-color;
-}
-
-.contact-list-link:hover .head-ic,
-.contact-list-link:focus .head-ic {
-  fill: $accent-color;
 }
