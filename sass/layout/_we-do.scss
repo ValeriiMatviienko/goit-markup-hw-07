@@ -1,0 +1,55 @@
+/* What we do section */
+
+.we-do {
+  padding-bottom: 94px;
+}
+
+.we-do-title {
+  margin-top: 0px;
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-title-color);
+}
+
+.team .team-list {
+  width: 270px;
+  height: 422px;
+}
+
+.we-do-list .img-in {
+  display: block;
+}
+
+.we-do .we-do-list {
+  display: flex;
+}
+
+.we-do-list .we-do-list-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.we-do .we-do-text {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  padding-top: 27px;
+  padding-bottom: 27px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  background-color: var(--secondary-text-background-color);
+  color: var(--secondary-text-color);
+}
+
+.we-do-list-item {
+  position: relative;
+}
