@@ -3,11 +3,11 @@
 .team {
   padding-top: 94px;
   padding-bottom: 94px;
-  background-color: var(--background-secondary-color);
+  background-color: $background-secondary-color;
 }
 
 .team-list .team-list-item {
-  background: var(--background-main-color);
+  background: $background-main-color;
   box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 1px 3px rgba(0, 0, 0, 0.12);
   border-radius: 0px 0px 4px 4px;
@@ -21,7 +21,7 @@
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--main-title-color);
+  color: $main-title-color;
 }
 
 .team .team-list {
@@ -44,7 +44,7 @@
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--main-title-color);
+  color: $main-title-color;
 }
 
 .team .team-position {
@@ -55,7 +55,7 @@
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--main-text-color);
+  color: $main-text-color;
 }
 
 .team-list .list-img {
@@ -86,16 +86,16 @@
 }
 
 .list-list-link:hover {
-  background-color: var(--accent-color);
+  background-color: $accent-color;
 }
 
 .list-list-link:hover .icon-team {
-  fill: var(--secondary-text-color);
+  fill: $secondary-text-color;
 }
 
 .list-list-link:focus-within {
-  background-color: var(--accent-color);
+  background-color: $accent-color;
 }
 .list-list-link:focus-within .icon-team {
-  fill: var(--secondary-text-color);
+  fill: $secondary-text-color;
 }

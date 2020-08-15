@@ -30,18 +30,18 @@
 }
 
 .clients-list-item:hover .icon-comp {
-  fill: var(--accent-color);
+  fill: $accent-color;
 }
 
 .clients-link:focus .icon-comp {
-  fill: var(--accent-color);
+  fill: $accent-color;
 }
 
 .clients-link:hover {
-  border-color: var(--accent-color);
+  border-color: $accent-color;
 }
 .clients-link:focus {
-  outline-color: var(--accent-color);
+  outline-color: $accent-color;
 }
 
 .clients-list .clients-list-item:not(:last-child) {
@@ -56,5 +56,5 @@
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--main-title-color);
+  color: $main-title-color;
 }

@@ -1,7 +1,7 @@
 /* Footer */
 
 .footer {
-  background-color: var(--footer-background-color);
+  background-color: $footer-background-color;
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -25,7 +25,7 @@
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: var(--background-main-color);
+  color: $background-main-color;
 }
 
 .footer .footer-list-link {
@@ -34,7 +34,7 @@
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: var(--footer-secondary-text-color);
+  color: $footer-secondary-text-color;
 }
 
 .slogan {
@@ -46,7 +46,7 @@
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--secondary-text-color);
+  color: $secondary-text-color;
 }
 
 .foot-slog .social-list {
@@ -75,14 +75,14 @@
 }
 
 .icon-foot {
-  fill: var(--secondary-text-color);
+  fill: $secondary-text-color;
 }
 
 .social-list-item:hover {
-  background-color: var(--accent-color);
+  background-color: $accent-color;
 }
 .social-list-item:focus-within {
-  background-color: var(--accent-color);
+  background-color: $accent-color;
 }
 
 .subscribe {
@@ -91,7 +91,7 @@
   margin-right: 10px;
   line-height: 30px;
   letter-spacing: 0.06em;
-  color: var(--secondary-text-color);
+  color: $secondary-text-color;
 }
 
 .butt-send {
@@ -100,14 +100,14 @@
   align-items: center;
   width: 200px;
   height: 50px;
-  background: var(--logo-main-color);
+  background: $logo-main-color;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border: none;
 }
 
 .icon-sendd {
-  fill: var(--secondary-text-color);
+  fill: $secondary-text-color;
 }
 
 .modal-form {
@@ -135,9 +135,9 @@
 }
 
 .input-text:focus {
-  color: var(--secondary-text-color);
+  color: $secondary-text-color;
 }
 
 .input-text:not(:placeholder-shown) {
-  color: var(--secondary-text-color);
+  color: $secondary-text-color;
 }

@@ -12,7 +12,7 @@
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--main-title-color);
+  color: $main-title-color;
 }
 
 .team .team-list {
@@ -46,8 +46,8 @@
   text-align: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  background-color: var(--secondary-text-background-color);
-  color: var(--secondary-text-color);
+  background-color: $secondary-text-background-color;
+  color: $secondary-text-color;
 }
 
 .we-do-list-item {
